@@ -6,7 +6,7 @@ Then start the container through the docker-compose
 
     docker-compose up -d
 
-Or, install the requirments
+Or, install the requirements
 
     pip install -r requirements.txt
 
