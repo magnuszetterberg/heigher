@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    image: heigher
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./:/app  # Mount your app directory into the container
+    environment:
+      - FLASK_ENV=production  # Set Flask environment to production
